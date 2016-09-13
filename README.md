@@ -9,4 +9,4 @@ Dead simple docker container to serve a directory of files over http. Configure 
 
 ## Example
 
-    docker run -ti --rm -e STATIC_URL="/static/" -v `pwd\`:/var/www -p 8010:80 nginx-static
+    docker run -ti --rm -e STATIC_URL="/static/" -v `pwd`:/var/www -p 8010:80 nginx-static
